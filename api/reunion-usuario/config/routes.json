@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/reunion-usuarios",
+      "handler": "reunion-usuario.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reunion-usuarios/count",
+      "handler": "reunion-usuario.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reunion-usuarios/:id",
+      "handler": "reunion-usuario.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/reunion-usuarios",
+      "handler": "reunion-usuario.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reunion-usuarios/:id",
+      "handler": "reunion-usuario.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/reunion-usuarios/:id",
+      "handler": "reunion-usuario.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

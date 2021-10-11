@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reunion_usuarios",
+  "info": {
+    "name": "ReunionUsuario"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "reunion": {
+      "model": "reuniones"
+    },
+    "idioma": {
+      "model": "idiomas"
+    },
+    "rol": {
+      "model": "roles"
+    }
+  }
+}

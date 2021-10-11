@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dias",
+  "info": {
+    "name": "dias"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "enumeration",
+      "enum": [
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado",
+        "Domingo"
+      ]
+    }
+  }
+}

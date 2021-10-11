@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/idiomas",
+      "handler": "idiomas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/idiomas/count",
+      "handler": "idiomas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/idiomas/:id",
+      "handler": "idiomas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/idiomas",
+      "handler": "idiomas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/idiomas/:id",
+      "handler": "idiomas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/idiomas/:id",
+      "handler": "idiomas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

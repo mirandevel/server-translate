@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reuniones",
+  "info": {
+    "name": "Reuniones",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "codigo": {
+      "type": "string"
+    },
+    "nombre": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "boolean"
+    },
+    "hora": {
+      "type": "time"
+    },
+    "dias": {
+      "model": "dias"
+    }
+  }
+}
