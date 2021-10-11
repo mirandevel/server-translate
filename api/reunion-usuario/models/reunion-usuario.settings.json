@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "reunion_usuarios",
   "info": {
-    "name": "ReunionUsuario"
+    "name": "ReunionUsuario",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -21,8 +22,8 @@
     "idioma": {
       "model": "idiomas"
     },
-    "rol": {
-      "model": "roles"
+    "funcion": {
+      "model": "funciones"
     }
   }
 }
