@@ -18,12 +18,6 @@
     },
     "reunion": {
       "model": "reuniones"
-    },
-    "idioma": {
-      "model": "idiomas"
-    },
-    "funcion": {
-      "model": "funciones"
     }
   }
 }
