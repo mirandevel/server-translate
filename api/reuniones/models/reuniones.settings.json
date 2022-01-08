@@ -21,14 +21,11 @@
     "descripcion": {
       "type": "string"
     },
-    "estado": {
-      "type": "boolean"
-    },
     "hora": {
       "type": "time"
     },
-    "dias": {
-      "model": "dias"
+    "fecha": {
+      "type": "date"
     }
   }
 }
