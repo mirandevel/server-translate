@@ -26,6 +26,10 @@
     },
     "fecha": {
       "type": "date"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }
